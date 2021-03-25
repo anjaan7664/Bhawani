@@ -48,57 +48,27 @@
             {{ $t("form.email_add") }}
           </h2>
           <a
-            href="mailto:Dilipbhootra555@gmail.com"
+            href="mailto:info@bhawaniind.com"
             class="text-lg text-left underline"
-            >Dilipbhootra555@gmail.com</a
+            >info@bhawaniind.com</a
           >
           <h2
             class="text-primary text-left text-xl font-Montserrat font-bold pt-5"
           >
             {{ $t("form.phone") }}
           </h2>
-          <a href="tel:+919829736959" class="text-lg text-left underline"
-            >+919829736959</a
+          <a href="tel:+919829769596" class="text-lg text-left underline"
+            >+919829769596</a
           >
         </div>
       </div>
+      <!-- Contact Us -->
       <div class="w-full md:w-1/2">
         <div
-          class="mx-2 lg:m-6 rounded lg:mx-12 p-4 lg:p-8 lg:mt-6"
+          class="mx-2 lg:m-6 rounded lg:mx-12 p-4 lg:p-8"
           style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
         >
-          <div class="">
-            <h1 class="font-Merriweather text-3xl text-secondary">
-              {{ $t("footer.contact_us") }}
-            </h1>
-            <div>
-              <input
-                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="text"
-                :placeholder="$t('form.name')"
-              />
-            </div>
-            <div class="mt-2">
-              <input
-                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="text"
-                :placeholder="$t('form.email')"
-              />
-            </div>
-            <div class="mt-2">
-              <textarea
-                :placeholder="$t('form.message')"
-                class="w-full h-12 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              ></textarea>
-            </div>
-            <div class="mt-2">
-              <button
-                class="uppercase h-16 text-sm font-bold tracking-wide bg-primary text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline transition duration-300 hover:bg-red"
-              >
-                {{ $t("form.send_message") }}
-              </button>
-            </div>
-          </div>
+          <contact-form />
         </div>
       </div>
     </section>
@@ -106,6 +76,7 @@
 </template>
 
 <script>
+import ContactForm from "../components/contactForm.vue";
 export default {
   name: "Contact",
   head: {
@@ -117,6 +88,6 @@ export default {
       // ...
     ]
   },
-  components: {}
+  components: { ContactForm }
 };
 </script>

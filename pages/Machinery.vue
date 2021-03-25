@@ -51,8 +51,8 @@ export default {
       machines: [
         {
           image: [
-            { url: require("../assets/images/machinery/jeera.webp") },
-            { url: require("../assets/images/machinery/jeera2.webp") }
+            { url: require("../assets/images/machinery/jeera.webp"),alt:"Jeera Cleaning Machine 1" },
+            { url: require("../assets/images/machinery/jeera2.webp"),alt:"Jeera Cleaning Machine 2" }
           ],
           alt: "",
           name: "machinery.2.name",
@@ -60,10 +60,10 @@ export default {
         },
         {
           image: [
-            { url: require("../assets/images/machinery/guar2.webp") },
-            { url: require("../assets/images/machinery/guar5.webp") },
-            { url: require("../assets/images/machinery/guar3.webp") },
-            { url: require("../assets/images/machinery/guar4.webp") }
+            { url: require("../assets/images/machinery/guar2.webp"),alt:"Guar Gum Manufacturing Machine 1" },
+            { url: require("../assets/images/machinery/guar5.webp"),alt:"Guar Gum Manufacturing Machine 2" },
+            { url: require("../assets/images/machinery/guar3.webp"),alt:"Guar Gum Manufacturing Machine 3" },
+            { url: require("../assets/images/machinery/guar4.webp"),alt:"Guar Gum Manufacturing Machine 4" }
           ],
           alt: "",
           name: "machinery.1.name",

@@ -21,20 +21,20 @@
                 <img
                   class="absolute ml-auto mr-auto bottom-0 m-3 h-8 left-0 right-0"
                   src="../assets/images/svg/insta.svg"
-                  alt=""
+                  alt="insta svg"
               /></a>
 
               <a v-if="owner.number != ''" :href="'tel:' + owner.number">
                 <img
                   class="absolute left-0 bottom-0 m-3 h-8"
                   src="../assets/images/svg/mobile.svg"
-                  alt=""
+                  alt="mobile svg"
               /></a>
               <a v-if="owner.fb != ''" :href="owner.fb" target="_blank">
                 <img
                   class="absolute right-0 bottom-0 m-3 h-8"
                   src="../assets/images/svg/fb.webp"
-                  alt=""
+                  alt="fb svg"
               /></a>
               <img
                 :src="owner.image"
@@ -66,19 +66,19 @@
                 <img
                   class="absolute right-0 bottom-0 m-3 h-8"
                   src="../assets/images/svg/fb.webp"
-                  alt=""
+                  alt="fb svg"
               /></a>
               <a v-if="member.insta != ''" :href="member.insta" target="_blank">
                 <img
                   class="absolute ml-auto mr-auto bottom-0 m-3 h-8 left-0 right-0"
                   src="../assets/images/svg/insta.svg"
-                  alt=""
+                  alt="instagram svg"
               /></a>
               <a v-if="member.number != ''" :href="'tel:' + member.number">
                 <img
                   class="absolute left-0 bottom-0 m-3 h-8"
                   src="../assets/images/svg/mobile.svg"
-                  alt=""
+                  alt="mobile svg"
               /></a>
 
               <img
@@ -121,7 +121,7 @@ export default {
     return {
       owners: [
         {
-          alt: "",
+          alt: "Dinesh Bhootra",
           image: require("../assets/images/employ/dinesh.webp"),
           name: "team.dinesh",
           post: "team.chairman",
@@ -130,7 +130,7 @@ export default {
           number: "+919829769596"
         },
         {
-          alt: "",
+          alt: "Dilip Bhootra",
           image: require("../assets/images/employ/dilip.webp"),
           name: "team.dilip",
           post: "team.co_chairman",
@@ -139,7 +139,7 @@ export default {
           number: "+918003948349"
         },
         {
-          alt: "",
+          alt: "Hitesh Bhootra",
           image: require("../assets/images/employ/hitesh.webp"),
           name: "team.hitesh",
           post: "team.co_chairman",
@@ -151,7 +151,7 @@ export default {
       members: [
         {
           image: require("../assets/images/employ/employ4.webp"),
-          alt: "",
+          alt: "Udaram Prajapat",
           number: "",
           name: "team.udaram",
           post: "team.accountant",
@@ -160,7 +160,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/pawan.webp"),
-          alt: "",
+          alt: "Pawan Sharma",
           number: "+919799182021",
           name: "team.pawan",
           post: "team.co_manager",
@@ -169,7 +169,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ2.webp"),
-          alt: "",
+          alt: "Jitendra Choudhary",
           number: "+919649613868",
           name: "team.jitu",
           post: "team.co_manager",
@@ -178,7 +178,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ7.webp"),
-          alt: "",
+          alt: "Tarun Sharma",
           number: "+918104448349",
           name: "team.tarun",
           post: "team.co_manager",
@@ -187,7 +187,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ1.webp"),
-          alt: "",
+          alt: "Jhumarlal Bishnoi",
           number: "",
           name: "team.jhumar",
           post: "team.employ",
@@ -196,7 +196,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ3.webp"),
-          alt: "",
+          alt: "Mohammad Khan",
           number: "",
           name: "team.mohd",
           post: "team.employ",
@@ -205,7 +205,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ5.webp"),
-          alt: "",
+          alt: "Ganpat Sen",
           number: "",
           name: "team.ganpat",
           post: "team.employ",
@@ -214,7 +214,7 @@ export default {
         },
         {
           image: require("../assets/images/employ/employ6.webp"),
-          alt: "",
+          alt: "Aba Khan",
           number: "",
           name: "team.aba",
           post: "team.employ",

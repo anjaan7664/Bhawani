@@ -53,6 +53,9 @@ export default {
   }, {
     src: '~/plugins/carousel.js',
     mode: 'client'
+  }, {
+    src: '~/plugins/captcha.js',
+    ssr: false
   }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -61,8 +64,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -82,13 +84,28 @@ export default {
       ],
       defaultLocale: 'en',
       vueI18n: i18n
-    }]
+    }],
+    [
+      'vue-sweetalert2/nuxt',
+      {
+        confirmButtonColor: '#41b882',
+        cancelButtonColor: '#ff7674'
+      }
+    ],
+    [
+      '@nuxtjs/recaptcha', {
+        hideBadge: true, // Hide badge element (v3 & v2 via size=invisible)
+        siteKey: "6Lc7FIMaAAAAALSftrCbxh0FVhQH3ujHOijwNFoQ", // Site key for requests
+        version: 2 // Version
+
+      }
+    ],
+    '@nuxtjs/axios'
   ],
   googleAnalytics: {
-    id: 'G-7JHM3683BX'
+    id: 'UA-100767428-2'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
 };

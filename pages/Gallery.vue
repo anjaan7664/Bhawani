@@ -11,7 +11,7 @@
           <img
             v-preview:scope-a
             :src="im.src"
-            alt=""
+            :alt="im.alt"
             class="block h-full object-cover w-full rounded"
             style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
           />
@@ -46,27 +46,26 @@ export default {
     return {
       index: null,
       images: [
-        { src: require("../assets/images/others/office.webp") },
-        { src: require("../assets/images/others/building.webp") },
-        { src: require("../assets/images/others/imgs (1).webp") },
-        { src: require("../assets/images/others/imgs (2).webp") },
-        { src: require("../assets/images/others/imgs (3).webp") },
-        { src: require("../assets/images/others/imgs (4).webp") },
-        { src: require("../assets/images/others/imgs (5).webp") },
-        { src: require("../assets/images/others/imgs (6).webp") },
-        { src: require("../assets/images/others/imgs (7).webp") },
-        { src: require("../assets/images/others/imgs (8).webp") },
-        { src: require("../assets/images/others/imgs (9).webp") },
-        { src: require("../assets/images/others/imgs (10).webp") },
-        { src: require("../assets/images/others/imgs (11).webp") },
-        { src: require("../assets/images/others/imgs (11).webp") },
-        { src: require("../assets/images/others/imgs (12).webp") },
-        { src: require("../assets/images/others/imgs (13).webp") },
-        { src: require("../assets/images/others/imgs (14).webp") },
-        { src: require("../assets/images/others/imgs (15).webp") },
-        { src: require("../assets/images/others/imgs (16).webp") },
-        { src: require("../assets/images/others/imgs (17).webp") },
-        { src: require("../assets/images/others/imgs (18).webp") }
+        { src: require("../assets/images/others/office.webp"), alt:"Bhawani Industries Office" },
+        { src: require("../assets/images/others/building.webp"),alt:"Bhawani Industries Building" },
+        { src: require("../assets/images/others/imgs (1).webp"),alt:"Bhawani Industries Office 1" },
+        { src: require("../assets/images/others/imgs (2).webp"),alt:"Bhawani Industries Office Inside Cabin" },
+        { src: require("../assets/images/others/imgs (3).webp"),alt:"Bhawani Industries office members" },
+        { src: require("../assets/images/others/imgs (4).webp"),alt:"Bhawani Industries Vehicles(RJ19GG6666,RJ19GG5555)" },
+        { src: require("../assets/images/others/imgs (5).webp"),alt:"Dilip Bhootra" },
+        { src: require("../assets/images/others/imgs (6).webp"),alt:"Bhawani Industries Office 3" },
+        { src: require("../assets/images/others/imgs (7).webp"),alt:"Bhawani Industries Office Temple" },
+        { src: require("../assets/images/others/imgs (8).webp"),alt:"Bhawani Industries Truck RJ19GG6666" },
+        { src: require("../assets/images/others/imgs (9).webp"),alt:"Bhawani Industries Office Inside Look" },
+        { src: require("../assets/images/others/imgs (10).webp"), alt:"Dilip Bhootra" },
+        { src: require("../assets/images/others/imgs (11).webp"), alt:"Dilip Bhootra" },
+        { src: require("../assets/images/others/imgs (12).webp"), alt:"Bhawani Industries Office inside" },
+        { src: require("../assets/images/others/imgs (13).webp"), alt:"Bhawani Industries Office Temple 2" },
+        { src: require("../assets/images/others/imgs (14).webp"), alt:"Bhawani Industries Office 5" },
+        { src: require("../assets/images/others/imgs (15).webp"), alt:"Dilip Bhootra with laptop" },
+        { src: require("../assets/images/others/imgs (16).webp"), alt:"Bhawani Industries Team Members" },
+        { src: require("../assets/images/others/imgs (17).webp"), alt:"Dilip Bhootra" },
+        { src: require("../assets/images/others/imgs (18).webp"), alt:"Bhawani Industries Office 7" }
       ]
     };
   },

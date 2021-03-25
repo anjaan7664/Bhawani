@@ -72,7 +72,7 @@
             <div class="flex flex-row mb-2 mx-auto w-64 lg:w-auto">
               <img
                 src="../assets/images/svg/location.svg"
-                alt=""
+                alt="location svg"
                 class="w-12 lg:w-auto mr-4"
               />
               <a
@@ -86,18 +86,18 @@
               href="tel:+912912944707"
               class="flex flex-row mb-2 mx-auto w-64 lg:w-auto underline"
             >
-              <img src="../assets/images/svg/phone.svg" alt="" class="mr-4" />
+              <img src="../assets/images/svg/phone.svg" alt="phone svg" class="mr-4" />
               <p class="">+91-291-2944707</p>
             </a>
             <a
-              href="mailto:Dilipbhootra555@gmail.com"
+              href="mailto:info@bhawaniind.com"
               class="flex flex-row mb-2 mx-auto w-64 lg:w-auto underline"
             >
-              <img src="../assets/images/svg/mail.svg" alt="" class="mr-4" />
-              <p>Dilipbhootra555@gmail.com</p>
+              <img src="../assets/images/svg/mail.svg" alt="mail svg" class="mr-4" />
+              <p>info@bhawaniind.com</p>
             </a>
             <div class="flex flex-row mb-2 mx-auto w-64 lg:w-auto">
-              <img src="../assets/images/svg/time.svg" alt="" class="mr-4" />
+              <img src="../assets/images/svg/time.svg" alt="time svg" class="mr-4" />
               <p>{{ $t("footer.time") }}</p>
             </div>
           </div>
@@ -107,6 +107,7 @@
         <div class="flex flex-row lg:ml-3 mx-auto">
           <p class="m-2">Copyright © 2020</p>
           <a
+            rel="noopener"
             target="_blank"
             href="http://satlaa.com"
             class="mt-2 mb-2 text-red transition-colors duration-300 font-semibold hover:text-white "

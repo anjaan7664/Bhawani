@@ -18,13 +18,13 @@
                 class="absolute object-cover ml-8 mt-8 bottom-0 right-0"
                 style="width:400px; height:300px"
                 src="../assets/images/factory.webp"
-                alt=""
+                alt="Bhawani Industries Factory Building"
               />
               <img
                 class="absolute object-cover my-anim-about mb-4 left-0 top-0  border-8 border-primary"
                 style="width:400px; height:300px"
                 src="../assets/images/others/building.webp"
-                alt=""
+                alt="Bhawani Industries New Building"
               />
             </div>
           </div>
@@ -37,7 +37,7 @@
               <img
                 class="object-cover my-anim-about border-4 border-primary"
                 src="../assets/images/others/building.webp"
-                alt=""
+                alt="Bhawani Industries New Building"
               />
             </div>
 
@@ -106,7 +106,7 @@
             <img
               v-preview:scope-a
               :src="crt.image"
-              alt=""
+              alt="Certificates"
               class="w-full px-5 my-2"
             />
           </div>

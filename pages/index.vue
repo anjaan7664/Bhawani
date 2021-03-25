@@ -12,13 +12,13 @@
         <div class="colarge-1">
           <img
             src="../assets/images/others/office.webp"
-            alt=""
+            alt="Bhawani Industries Office Building"
             class="h-auto relative max-w-full rounded-md my-anim"
             style="vertical-align: middle;"
           />
           <img
             src="../assets/images/factory.webp"
-            alt=""
+            alt="Bhawani Industries Factory Building"
             class="h-auto absolute max-w-full rounded-md my-anim2 "
             style="vertical-align: middle;"
           />
@@ -54,11 +54,8 @@
 
     <!-- This is Section to telling why we are best  -->
     <section
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      class="text-center mt-8"
-      flex
-      flex-wrap
+      class="text-center mt-8 flex
+      flex-wrap"
     >
       <h1
         class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle mb-12"
@@ -95,29 +92,7 @@
       </div>
     </section>
     <div></div>
-    <!-- Video From factory -->
-    <section
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      class="text-center my-10"
-    >
-      <h1
-        class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle mb-6  "
-      >
-        {{ $t("something_about_us") }}
-      </h1>
-      <div class="">
-        <client-only>
-        <iframe
-          src="https://www.youtube.com/embed/wYEx-DyQgoU"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="w-full map-class"
-        ></iframe>
-        </client-only>
-      </div>
-    </section>
+
     <!-- This is section for showing Products  -->
     <section
       class="text-center mt-10"
@@ -158,7 +133,11 @@
       </div>
     </section>
     <!-- Section for showing Machinery  -->
-    <section class="text-center mt-10" data-aos="zoom-in" data-aos-duration="1000">
+    <section
+      class="text-center mt-10"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+    >
       <h1
         class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle mb-6  "
       >
@@ -188,7 +167,11 @@
       </div>
     </section>
     <!-- This is Team Section  -->
-    <section class="text-center mt-10" data-aos="zoom-in" data-aos-duration="1000">
+    <section
+      class="text-center mt-10"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+    >
       <h1
         class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle my-6"
       >
@@ -242,77 +225,77 @@
         </div>
       </div>
     </section>
-
+    <!-- Video From factory -->
+    <section
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class="text-center my-10"
+    >
+      <h1
+        class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle mb-6  "
+      >
+        {{ $t("something_about_us") }}
+      </h1>
+      <div class="">
+        <client-only>
+          <iframe
+            src="https://www.youtube.com/embed/wYEx-DyQgoU"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="w-full map-class"
+          ></iframe>
+        </client-only>
+      </div>
+    </section>
     <!-- Group of Companies and Contact  -->
     <section class="text-center mt-10 flex flex-wrap ">
-      <div
-        class="w-full md:w-1/2 md:pl-16"
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-      >
-        <h1
-          class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle my-6"
+      <div class="w-full md:w-1/2" data-aos="zoom-in" data-aos-duration="1000">
+        <div
+          class="mx-2 rounded lg:mx-12 p-4 lg:p-0 lg:px-8 lg:pb-6"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
         >
-          {{ $t("company.group_of_companies") }}
-        </h1>
-        <div class="text-left md:text-center">
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            <span class="font-bold">{{ $t("firm.bhawani") }}</span
-            >, {{ $t("firm.unja") }}
-          </h2>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            <span class="font-bold"> {{ $t("firm.hitesh") }}</span
-            >, {{ $t("firm.jodhpur") }},
-          </h2>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            <span class="font-bold"> {{ $t("firm.bhootra") }}</span
-            >, {{ $t("firm.jodhpur") }},
-          </h2>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            <span class="font-bold"> {{ $t("firm.rr") }}</span
-            >, {{ $t("firm.jodhpur") }},
-          </h2>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            <span class="font-bold"> {{ $t("firm.ladli") }} </span>,
-            {{ $t("firm.jodhpur") }},
-          </h2>
+          <h1
+            class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle my-6"
+          >
+            {{ $t("company.group_of_companies") }}
+          </h1>
+          <div class="text-left md:text-center">
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              <span class="font-bold">{{ $t("firm.bhawani") }}</span
+              >, {{ $t("firm.unja") }}
+            </h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              <span class="font-bold"> {{ $t("firm.hitesh") }}</span
+              >, {{ $t("firm.jodhpur") }}
+            </h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              <span class="font-bold"> {{ $t("firm.bhootra") }}</span
+              >, {{ $t("firm.jodhpur") }}
+            </h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              <span class="font-bold"> {{ $t("firm.rr") }}</span
+              >, {{ $t("firm.jodhpur") }}
+            </h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              <span class="font-bold"> {{ $t("firm.ladli") }} </span>,
+              {{ $t("firm.jodhpur") }}
+            </h2>
+          </div>
         </div>
       </div>
+
       <div
-        class="w-full md:w-1/2 text-center"
         data-aos="zoom-in"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
+        class="w-full md:w-1/2 text-center mt-8 md:mt-0 "
       >
-        <h1
-          class="mx-auto font-Merriweather text-4xl border-primary border-b-4 w-auto inline-block align-middle my-6 text-center"
+        <div
+          class="mx-2 rounded lg:mx-12 p-4 lg:p-0 lg:px-8 lg:pb-6"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
         >
-          {{ $t("form.get_in_touch") }}
-        </h1>
-
-        <div class="border-8 md:w-2/3 rounded m-auto">
-          <div class="p-3 mb-6 mx-auto">
-            <input
-              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-              id="grid-first-name"
-              type="text"
-              :placeholder="$t('form.name')"
-            />
-            <input
-              class="appearance-none block w-full  h-20 bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-              id="grid-first-name"
-              type="text"
-              :placeholder="$t('form.message')"
-            />
-
-            <div class="mt-8">
-              <button
-                class="uppercase text-sm font-bold tracking-wide primary-gradient text-gray-100 h-16 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline "
-              >
-                {{ $t("form.send_message") }}
-              </button>
-            </div>
-          </div>
+          <contact-form />
         </div>
       </div>
     </section>
@@ -320,6 +303,7 @@
 </template>
 
 <script>
+import ContactForm from "../components/contactForm.vue";
 export default {
   name: "Home",
   data() {
@@ -327,117 +311,116 @@ export default {
       showOffs: [
         {
           image: require("../assets/images/svg/factory.webp"),
-          alt: "",
+          alt: "Factory Image",
           heading: "showOff.1.heading",
-          paragraph: "showOff.1.paragraph",
+          paragraph: "showOff.1.paragraph"
         },
         {
           image: require("../assets/images/svg/Transparency.webp"),
-          alt: "",
+          alt: "Transparency Image",
           heading: "showOff.2.heading",
-          paragraph: "showOff.2.paragraph",
+          paragraph: "showOff.2.paragraph"
         },
         {
           image: require("../assets/images/svg/Rigorous.webp"),
-          alt: "",
+          alt: "Rigorous Image",
           heading: "showOff.3.heading",
-          paragraph: "showOff.3.paragraph",
+          paragraph: "showOff.3.paragraph"
         },
         {
           image: require("../assets/images/svg/Advanced.webp"),
-          alt: "",
+          alt: "Advanced Image",
           heading: "showOff.4.heading",
-          paragraph: "showOff.4.paragraph",
+          paragraph: "showOff.4.paragraph"
         },
         {
           image: require("../assets/images/svg/Premium.webp"),
-          alt: "",
+          alt: "Premium Image",
           heading: "showOff.5.heading",
-          paragraph: "showOff.5.paragraph",
+          paragraph: "showOff.5.paragraph"
         },
         {
           image: require("../assets/images/svg/Certified.webp"),
-          alt: "",
+          alt: "Certified Image",
           heading: "showOff.6.heading",
-          paragraph: "showOff.6.paragraph",
-        },
+          paragraph: "showOff.6.paragraph"
+        }
       ],
       Products: [
         {
           image: require("../assets/images/products/dal.webp"),
-          alt: "",
+          alt: "Guar Dal made from Guar Gum",
           heading: "product.1.name",
-          paragraph: "product.1.paragraph",
+          paragraph: "product.1.paragraph"
         },
         {
           image: require("../assets/images/products/korma.webp"),
-          alt: "",
+          alt: "Guar Korma made from Guar Gum",
           heading: "product.2.name",
-          paragraph: "product.2.paragraph",
+          paragraph: "product.2.paragraph"
         },
         {
           image: require("../assets/images/products/churi.webp"),
-          alt: "",
+          alt: "Guar Churi made from Guar Gum",
           heading: "product.3.name",
-          paragraph: "product.3.paragraph",
-        },
+          paragraph: "product.3.paragraph"
+        }
       ],
       owners: [
         {
-          alt: "",
+          alt: "Dinesh Bhootra",
           image: require("../assets/images/employ/dinesh.webp"),
           name: "team.dinesh",
           post: "team.chairman",
           insta: "http://instagram.com/_u/anjaan7664/",
           fb: "",
-          number: "+919829769596",
+          number: "+919829769596"
         },
         {
-          alt: "",
+          alt: "Dilip Bhootra",
           image: require("../assets/images/employ/dilip.webp"),
           name: "team.dilip",
           post: "team.co_chairman",
           insta: "",
           fb: "https://www.facebook.com/Anj7664",
-          number: "+918003948349",
+          number: "+918003948349"
         },
         {
-          alt: "",
+          alt: "Hitesh Bhootra",
           image: require("../assets/images/employ/hitesh.webp"),
           name: "team.hitesh",
           post: "team.co_chairman",
           insta: "",
           fb: "https://www.facebook.com/Anj7664",
-          number: "+91730041005",
-        },
+          number: "+91730041005"
+        }
       ],
       Machinery: [
         {
           image: require("../assets/images/machinery/jeera.webp"),
-          alt: "",
-          name: "machinery.1.name",
+          alt: "Jeera Cleaning Machine",
+          name: "machinery.1.name"
         },
         {
           image: require("../assets/images/machinery/guar2.webp"),
-          alt: "",
-          name: "machinery.2.name",
+          alt: "Guar Gum Manufacturing Machine",
+          name: "machinery.2.name"
         },
         {
           image: require("../assets/images/machinery/store.webp"),
-          alt: "",
-          name: "machinery.3.name",
-        },
+          alt: "Bhawani Industries Store Room",
+          name: "machinery.3.name"
+        }
       ],
       Companies: [
         { name: "Bhawani Trading, Unjha(Guj.)     " },
         { name: "Hitesh Industries, Jodhpur(Raj.) " },
         { name: "Bhootra Industries, Jodhpur(Raj.)" },
         { name: "R.R.& Company, Jodhpur(Raj.)     " },
-        { name: "Ladli Spices, Jodhpur(Raj.)      " },
-      ],
+        { name: "Ladli Spices, Jodhpur(Raj.)      " }
+      ]
     };
   },
-  components: {},
-
+  components: { ContactForm }
 };
 </script>

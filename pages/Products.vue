@@ -82,9 +82,9 @@ export default {
       products: [
         {
           image: [
-            { url: require("../assets/images/products/dal.webp") },
-            { url: require("../assets/images/products/dal2.webp") },
-            { url: require("../assets/images/products/dal3.webp") }
+            { url: require("../assets/images/products/dal.webp"), alt:"Guar Dal made from Guar Gum 1" },
+            { url: require("../assets/images/products/dal2.webp"), alt:"Guar Dal made from Guar Gum 2" },
+            { url: require("../assets/images/products/dal3.webp"), alt:"Guar Dal made from Guar Gum 3" }
           ],
           alt: "product.1.name",
           name: "product.1.name",
@@ -95,9 +95,9 @@ export default {
         },
         {
           image: [
-            { url: require("../assets/images/products/korma.webp") },
-            { url: require("../assets/images/products/korma2.webp") },
-            { url: require("../assets/images/products/korma3.webp") }
+            { url: require("../assets/images/products/korma.webp"), alt:"Guar Korma made from Guar Gum 1" },
+            { url: require("../assets/images/products/korma2.webp"), alt:"Guar Korma made from Guar Gum 2" },
+            { url: require("../assets/images/products/korma3.webp"), alt:"Guar Korma made from Guar Gum 3" }
           ],
           alt: "product.2.name",
           name: "product.2.name",
@@ -108,9 +108,9 @@ export default {
         },
         {
           image: [
-            { url: require("../assets/images/products/churi.webp") },
-            { url: require("../assets/images/products/churi2.webp") },
-            { url: require("../assets/images/products/churi3.webp") }
+            { url: require("../assets/images/products/churi.webp"), alt:"Guar Churi made from Guar Gum 1" },
+            { url: require("../assets/images/products/churi2.webp"), alt:"Guar Churi made from Guar Gum 2" },
+            { url: require("../assets/images/products/churi3.webp"), alt:"Guar Churi made from Guar Gum 3" }
           ],
           alt: "product.3.name",
           name: "product.3.name",
