@@ -1,5 +1,6 @@
-https://bhawaniind.com
+Live Website - https://bhawaniind.com
 
+Figma Design - https://www.figma.com/file/8hZcFW8qO0EX861toMRoRy/Bhawani-Industries
 
 ## Build Setup
 
